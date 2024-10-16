@@ -74,7 +74,7 @@ setScore(result)
             </fieldset>
 
             <button onClick={checkResult}>Підрахувати результат</button> 
-            {score !== null && <p>Правильних відповідей {score}</p> }
+            {score !== null && <p>Правильних відповідей {score}/3</p> }
         </div>
     );
 }
