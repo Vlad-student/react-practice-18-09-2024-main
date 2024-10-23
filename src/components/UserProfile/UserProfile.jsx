@@ -2,7 +2,7 @@ import Proptypes from 'prop-types'
 import { useState } from 'react'; //hook
 import Icon from '@mdi/react';
 import { mdiThumbUp, mdiThumbDown } from '@mdi/js';
-import styles from './UserProfile.module.css';
+import styles from './UserProfile.module.scss';
 
 const UserProfile = (props) => {
   const {

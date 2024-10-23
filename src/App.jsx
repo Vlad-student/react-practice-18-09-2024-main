@@ -1,13 +1,14 @@
-import QuizPage from "./pages/QuizPage";
+import UsersSection from "./components/UsersSection/UsersSection";
+
 
 
 
 function App() {
   return (
-    <div>
-<QuizPage/>
-    </div>
-  );
+    <>
+<UsersSection/>
+    </>
+  )
 }
 
 export default App;
