@@ -38,7 +38,7 @@ const UserProfile = (props) => {
       style={{ border: borderSelect }}
     >
       <button onClick={changeIsDelete}>X</button>
-      <h2>name: {name}</h2>
+      <h2>name: <span>{name}</span></h2>
       <h3>age: {age}</h3>
       <p>email: {email}</p>
       <p className={styles.flex}>
